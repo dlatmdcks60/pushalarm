@@ -1,0 +1,17 @@
+html,
+body { font-family: 'Noto Sans KR', sans-ser; padding: 0 !important; margin: 0 !important; width: 100%; height: 100%; } 
+ul,
+li { list-style: none; padding: 0; margin: 0; } 
+div.content { padding: 20px 30px; width: calc(100% - 60px); height: calc(100% - 40px); } 
+div.content ul { overflow: auto; width: 100%; height: calc(100% - 40px); } 
+div.content ul li:not(:last-of-type) { margin-bottom: 10px; } 
+div.content ul li { background: #efefef; padding: 15px; border-radius: 7px; } 
+div.content ul li .title { display: block; font-weight: bold; font-size: 17px; } 
+div.content ul li .msg { display: block; margin-bottom: 2px; } 
+div.content ul li .section_l { color: #000; padding: 0 5px; } 
+div.content ul li .section_1 { color: #4a4a4a; } 
+div.content ul li .section_1 .success.on { color: #4caf50 !important; } 
+div.content ul li .section_1 .success.off { color: #cc4468 !important; } 
+div.content ul li .section_2 .datetime { font-size: 14px; color: #494949; } 
+div.content div.btn { display: flex; height: 30px; border-radius: 10px; background: #ddd; align-items: center; justify-content: center; color: #4d4d4d; cursor: pointer; margin-top: 10px; } 
+.noneData { display: block; width: 100%; text-align: center; color: #545454; } 
