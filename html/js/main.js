@@ -26,7 +26,7 @@ window.onload = () => {
                 } else {
                     registration.pushManager.subscribe({
                         userVisibleOnly: true,
-                        applicationServerKey: "BGznPZnFMMCkT5dCxBBT1_OTELe-Kn0h7IQ8K1iKgzEZwbfYO2BFfF6GvETmsCjGAq_WxOHkw-LNIOplg7POo2U"
+                        applicationServerKey: ""
                     }).then((subscription) => {});
                 }
             });
